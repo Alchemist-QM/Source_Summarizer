@@ -9,7 +9,7 @@ from typing import Union
 from token_batching import TokenSplitter
 from langchain_openai import ChatOpenAI
 from langchain_core.runnables import Runnable
-from new_prompts import reducer_templates, student_templates
+from prompts import reducer_templates, student_templates
 from langchain_community.document_loaders import PyMuPDFLoader
 from langchain_community.document_loaders import PyPDFDirectoryLoader
 from langchain_community.document_loaders import UnstructuredMarkdownLoader
