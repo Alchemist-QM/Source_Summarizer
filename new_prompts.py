@@ -301,7 +301,6 @@ Text:
 
 
 ### For youtube videos 
-from langchain.prompts import PromptTemplate
 
 youtube_prompt_templates = {
     # Existing youtube_sum_3.py academic/insight prompts
