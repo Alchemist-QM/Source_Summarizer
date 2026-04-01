@@ -9,7 +9,7 @@ from langchain_core.runnables import Runnable
 from datetime import timedelta
 from dotenv import load_dotenv
 from youtube_vid_info import Video_Info
-from prompts import prompt_templates
+from prompts import youtube_prompt_templates
 from token_batching import TokenSplitter
 from concurrent.futures import ThreadPoolExecutor
 import pandas as pd
